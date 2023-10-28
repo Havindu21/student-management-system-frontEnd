@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.navbar{
+    height: 100px;
+}
+.img-sizing{
+    height:1400px;
+    width:1899px ;    
+}
+#para{
+    position: relative;
+    top: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-style: oblique;
+    font-size: larger;
+    text-align: justify;
+}
+.positioning{
+    position: relative;
+    margin-top: 150px;
+}
+.col{
+    background-color: #198754;
+
+}

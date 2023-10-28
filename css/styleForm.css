@@ -1,0 +1,53 @@
+.navbar {
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+
+table {
+    position: relative;
+    top: -517px;
+    left: 57%;
+    width: 40%;
+    height: 550px;
+    padding: 50%;
+}
+
+td {
+    font-size: x-large;
+    border-radius: 100px;
+}
+
+.col {
+    background-color: #198754;
+}
+
+.footer {
+    position: absolute;
+    margin-top: -454px;
+}
+
+.reg-col {
+    color: #198754;
+    font-family: fantasy;
+    font-size: 300%;
+}
+
+.td-special {
+    font-size: large;
+}
+
+.form-img {
+    width: 45%;
+    position: relative;
+    top: 50px;
+    left: 75px;
+}
+.exception{
+    font-size: medium;
+    text-align: left;
+}

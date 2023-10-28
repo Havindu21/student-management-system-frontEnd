@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register | Triumph Heights Academy</title>
+    <link rel="stylesheet" href="./css/styleForm.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav id="navbar"></nav>
+      <h1 class="reg-col">Online Registration</h1>
+      <img class="form-img" src="images/muhammad-rizwan-VnydpKiCDaY-unsplash.jpg" alt="">
+    <table>
+      <tr>
+        <td>First Name</td>
+        <td><input id="firstName" type="text" /></td>
+        <td class="exception" id="exception1"></td>
+      </tr>
+      <tr>
+        <td>Last Name</td>
+        <td><input id="lastName" type="text" /></td>
+        <td class="exception" id="exception2"></td>
+      </tr>
+      </tr>
+      <tr>
+        <td>NIC</td>
+        <td><input id="nic" type="text" /></td>
+        <td class="exception" id="exception3"></td>
+      </tr>
+      <tr>
+        <td>Email Address</td>
+        <td><input id="emailAddress" type="text" /></td>
+        <td class="exception" id="exception4"></td>
+      </tr>
+      <tr>
+        <td>Contact Number</td>
+        <td><input id="contactNo" type="text" /></td>
+        <td class="exception" id="exception5"></td>
+      </tr>
+      <tr>
+        <td>City</td>
+        <td><input id="city" type="text" /></td>
+        <td class="exception" id="exception6"></td>
+      </tr>
+      <tr>
+        <td>Birthday</td>
+        <td><input id="birthday" type="date" /></td>
+      </tr>
+      <tr>
+
+        <td>Course</td>
+        <td class="dropdown">
+            <select name=""  id="course">
+              <option value="iCM Online">iCM Online</option>
+              <option value="iCM Phisycal">iCM Phisycal</option>
+              <option value="iCD Special">iCD Special</option>
+            </select>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>Gender</td>
+        <td>
+          <input type="radio" name="gender" value="Male" />
+          Male &nbsp;
+          <input type="radio" name="gender" value="Female" />
+          Female &nbsp;
+          <input type="radio" name="gender" value="other" />
+          Other
+        </td>
+      </tr>
+<tr>
+  <td>
+    Upload Photo
+  </td>
+  <td class="td-special">
+    <input type="file" name="" id="img">
+  </td>
+</tr>
+      <tr>
+        <td>
+            <input type="button" id="btn-SignUp" value="SUBMIT" />
+              <a href="form.html">
+              <input type="button" value="RESET" />
+            </a>
+        </td>
+      </tr>
+    </table>
+
+    <script src="./js/formHandling.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+  <footer>
+    <nav id="footer"></nav>
+  </footer>
+</html>

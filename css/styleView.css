@@ -1,0 +1,57 @@
+.navbar {
+    height: 100px;
+}
+
+.col {
+    background-color: #198754;
+}
+
+h1 {
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.reg-col {
+    color: #198754;
+    font-family: fantasy;
+    font-size: 300%;
+}
+
+table {
+    position: relative;
+    top: 40px;
+    left: 10%;
+    width: 80%;
+    height: 30px;
+}
+
+td,
+th {
+    border: 2px solid #198754;
+}
+
+th {
+    text-align: center;
+    font-size: larger;
+}
+
+td {
+    font-size: larger;
+}
+
+
+.footer {
+    position: relative;
+    top: 642px;
+}
+.image{
+    width: 100px;
+    height: 100px;
+    border-radius: 1000px;
+}
+.image-card{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
